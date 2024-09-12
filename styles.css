@@ -12,6 +12,10 @@ body{
     align-items: center;
 }
 
+a{
+    color: gray;
+}
+
 .container{
     position: relative;
     width: 80%;
@@ -94,17 +98,16 @@ body{
     width: 30px;
     font-size: 18px;
     color: white;
+    text-align: center;
 }
 
 .contactInfo ul li span{
     color: white;
     font-weight: 300;
     margin-top: 10px;
+    padding-left: 5px;
 }
 
-.contactInfo ul li span a {
-    color: gray;
-}
 .contactInfo .langues .percent{
     position: relative;
     width: 100%;
